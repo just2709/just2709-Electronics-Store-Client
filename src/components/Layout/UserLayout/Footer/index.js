@@ -5,8 +5,8 @@ index.propTypes = {};
 
 function index(props) {
   return (
-    <footer className='bg-white dark:bg-gray-900 '>
-      <div className='grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4 place-content-around mx-auto max-w-7xl sm:px-6 lg:px-8'>
+    <footer className='bg-white dark:bg-gray-900 mt-5'>
+      <div className='bg-gradient-to-r from-red-100 to-blue-200 grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4 place-content-around mx-auto max-w-7xl sm:px-6 lg:px-8'>
         <div>
           <h2 className='mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400'>Company</h2>
           <ul className='text-gray-500 dark:text-gray-400'>
@@ -105,7 +105,11 @@ function index(props) {
       </div>
       <div className='py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-around'>
         <span className='flex text-sm text-gray-500 dark:text-gray-300 sm:text-center md:text-center justify-center'>
-          © 2022 <a href='https://flowbite.com/'>Just™</a>. All Rights Reserved.
+          © 2022
+          <a href='https://flowbite.com/'>
+            <span className='font-semibold'>-Just</span>
+          </a>
+          . All Rights Reserved.
         </span>
         <div className='flex mt-4 space-x-6 justify-center md:mt-0'>
           <a href='#' className='text-gray-400 hover:text-gray-900 dark:hover:text-white'>

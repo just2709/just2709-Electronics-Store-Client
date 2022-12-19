@@ -1,6 +1,7 @@
 import { lazy } from "react";
 import SignIn from "../pages/auth/SignIn";
 import SignUp from "../pages/auth/SignUp";
+import DetailProduct from "../pages/User/DetailProduct";
 import Home from "../pages/User/Home";
 import Products from "../pages/User/Products";
 
@@ -25,6 +26,11 @@ const publicRoutes = [
   {
     path: "/products",
     element: Products,
+    exact: true,
+  },
+  {
+    path: "/products/:id",
+    element: DetailProduct,
     exact: true,
   },
 ];
