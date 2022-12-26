@@ -112,7 +112,7 @@ function ResponsiveAppBar() {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
-              <Link href='#' key={page} onClick={handleCloseNavMenu} sx={{ my: 2, color: "white", display: "block", px: 2 }}>
+              <Link href='#' key={page} onClick={handleCloseNavMenu} sx={{ my: 2, color: "white", display: "block", px: 2, textDecoration: "none" }}>
                 {page}
               </Link>
             ))}

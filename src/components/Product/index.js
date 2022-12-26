@@ -9,7 +9,6 @@ Product.propTypes = {};
 
 function Product({ product }) {
   const imageCover = BASE_URL_IMG_PRODUCT + product.imageCover;
-  console.log(product);
   return (
     <Link to={`products/${product._id}`}>
       <div className='m-2 px-2 py-2 border rounded-lg shadow-lg'>

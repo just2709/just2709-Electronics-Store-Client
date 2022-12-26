@@ -5,8 +5,8 @@ index.propTypes = {};
 
 function index(props) {
   return (
-    <footer className='bg-white dark:bg-gray-900 mt-5'>
-      <div className='bg-gradient-to-r from-red-100 to-blue-200 grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4 place-content-around mx-auto max-w-7xl sm:px-6 lg:px-8'>
+    <footer className='bg-gradient-to-r from-red-100 to-blue-200 dark:bg-gray-900 mt-5'>
+      <div className=' grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4 place-content-around mx-auto max-w-7xl sm:px-6 lg:px-8'>
         <div>
           <h2 className='mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400'>Company</h2>
           <ul className='text-gray-500 dark:text-gray-400'>
